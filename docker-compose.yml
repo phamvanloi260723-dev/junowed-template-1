@@ -1,0 +1,7 @@
+services:
+  wedding-site-hang-dat:
+    build: .
+    container_name: hang-dat-template-1
+    ports:
+      - "3015:80"
+    restart: always
